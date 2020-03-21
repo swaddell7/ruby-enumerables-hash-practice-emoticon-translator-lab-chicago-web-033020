@@ -5,6 +5,7 @@ def load_library(file_name)
   library = {:get_meaning => {}, :get_emoticon => {}}
   emoticons = YAML.load_file(file_name)
   emoticons.each do |moods, emotis|
+    
 end
 
 def get_japanese_emoticon
