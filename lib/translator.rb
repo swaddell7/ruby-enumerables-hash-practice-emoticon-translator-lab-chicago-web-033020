@@ -33,5 +33,8 @@ def get_english_meaning(file_name, emoticon)
       response = english 
     end
   end
+  if response == nil
+    return "Sorry, that emoticon was not found"
+  end
   return response
 end
