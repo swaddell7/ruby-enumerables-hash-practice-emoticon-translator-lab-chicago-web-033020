@@ -16,7 +16,10 @@ def get_japanese_emoticon(file_name, emoticon)
   response = nil
   library[:get_emoticon].each do |english, japanese|
     if emoticon == english
-      return japanese
+      response = japanese
+    end
+  end
+  
 end
 
 def get_english_meaning
