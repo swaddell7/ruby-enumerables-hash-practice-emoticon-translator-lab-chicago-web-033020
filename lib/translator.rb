@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_name, emoticon)
     end
   end
   if response == nil
-    "Sorry, that emoticon is not found."
+    return "Sorry, that emoticon is not found."
   end
   return response
 end
