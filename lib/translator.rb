@@ -5,7 +5,7 @@ def load_library(file_name)
   #library = {:get_meaning => emoticons.keys, :get_emoticon => emoticons.values}
   #library
   file = File.read(file_name)
-  
+  emoticons = 
 end
 
 def get_japanese_emoticon
